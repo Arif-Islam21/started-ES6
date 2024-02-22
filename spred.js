@@ -13,3 +13,6 @@ nums.push(12);
 console.log(nums);
 console.log(nums2);
 console.log(nums3);
+
+const songkha = [...nums, 9999]; //add extra elements while copying
+console.log(songkha);
