@@ -10,3 +10,5 @@ const friends = ["rahim", "karim", "mahim"];
 
 const upperCase = friends.map((f) => f[0].toUpperCase());
 console.log(upperCase);
+const friendsName = friends.map((n) => n[1]);
+console.log(friendsName);
