@@ -26,11 +26,22 @@
 
 const numbers = [33, 50, 79, 78, 90, 101, 30];
 
-const result = numbers.filter(
-  (divide = (n) => {
+// const result = numbers.filter(
+//   (divide = (n) => {
+//     if (n % 10 === 0) {
+//       return n;
+//     }
+//   })
+// );
+// console.log(result);
+
+const result = numbers.find(
+  (num = (n) => {
     if (n % 10 === 0) {
       return n;
+      // console.log(n);
     }
   })
 );
+
 console.log(result);
