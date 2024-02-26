@@ -1,15 +1,7 @@
-// task 3 : acces and show habluder adda
-// show output beginner
-let data2 = {
-  data: [
-    {
-      bookId: 1,
-      bookDetail: {
-        name: "habluder adda",
-        category: "xyz",
-        price: "20$",
-      },
-      bookCategory: "Basic",
-    },
-  ],
-};
+const numbers = [1, 3, 5, 7, 9];
+for (let num of numbers) {
+  if (num % 2 === 1) {
+    num += 1;
+  }
+  console.log(num);
+}
